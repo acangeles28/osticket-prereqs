@@ -18,17 +18,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> 
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Enable IIS in Windows
+- Install PHP manager and configure PHP
+- Install Rewrite Module
+- Set up my SQL Database
+- Download and install osTicket
 
 <h2>Installation Steps</h2>
+<img width="1470" alt="Screenshot 2025-03-25 at 12 31 37 PM" src="https://github.com/user-attachments/assets/6f4219b4-fda7-4a5b-a638-c9b06d5c4251" />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
