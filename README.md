@@ -40,28 +40,35 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![enable iis](https://github.com/user-attachments/assets/60d570aa-3fe4-4044-b72e-24f53f198e06)
 
 <p>From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)</p>
-<img src="php directory 1.png" />
+
+![php directory 1](https://github.com/user-attachments/assets/92aff03e-e193-4607-84cf-28d95a7a2002)
 
 <p>From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi) 
 </p>
-<img src="rewirte module.png" />
+
+![rewirte module](https://github.com/user-attachments/assets/ee61ddd0-72e0-4da6-85cf-93fc2435c0df)
 
 <p>Create the directory C:\PHP</p>
 <p>From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder</p>
-<img src="php directory 2.png" />
+
+![php directory 2](https://github.com/user-attachments/assets/6f88da28-5a5f-45fb-ab24-91977a40a5b0)
 
 <p>From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe</p>
-<img src="vc_redist.png" />
+
+![vc_redist](https://github.com/user-attachments/assets/4f90fa07-c568-4b3c-9769-7235b54fb0b9)
 
 <p>From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi) </p>
-<img src="mysql.png" />
+
+![mysql](https://github.com/user-attachments/assets/c8701036-6ad1-45a0-b26f-8ce83ac2870c)
 
 <p>Open IIS as an Admin</p>
 <p>Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)</p>
-<img src="register php 1.png" />
+
+![register php 1](https://github.com/user-attachments/assets/4bbd9784-b71d-4078-981c-995b0c088fb9)
 
 <p>Reload IIS (Open IIS, Stop and Start the server)</p>
-<img src="reload iis.png" />
+
+![reload iis](https://github.com/user-attachments/assets/25cafded-688e-470e-abbd-ed0ed0888765)
 
 <p>Install osTicket v1.15.8
   
@@ -69,6 +76,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 </p>
 
+![install osticket 1](https://github.com/user-attachments/assets/b6b2c1ce-8136-4dac-b88e-3c9f56a932ba)
 ![osticket 2](https://github.com/user-attachments/assets/309af62b-d9a1-4518-866a-5a8604093a95)
 
 
