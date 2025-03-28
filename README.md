@@ -35,7 +35,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![remote desktop app](https://github.com/user-attachments/assets/cacde265-bfa1-4ed7-a057-df1e2617c8df)
 
 <p>Within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip it onto your desktop </p>
-<p>Install / Enable IIS in Windows WITH CGI </p>
+<p>Enable IIS in Windows WITH CGI </p>
+
+  - You will need CGI to download the PHP Manager. PHP Manager is a back-end web programming language that allows osTicket to run on a web browser.
+  - In the search bar, access the Control Panel, then select "Uninstall a Program." On the left, select "Turn Windows features on or off." In this list, enable Internet Information Services. Then expand the folder, look for "World Wide Web Services," expand it, look for "Application Development Features," expand it, and enable "CGI."
 
 ![enable iis](https://github.com/user-attachments/assets/60d570aa-3fe4-4044-b72e-24f53f198e06)
 
