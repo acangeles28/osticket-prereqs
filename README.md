@@ -26,14 +26,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 <p>Create a Resource Group and Azure Virtual Machine in Windows 10</p>
-<img src="create azure RG.png" />
-<img src="create a vm.png" />
+
+![create azure RG](https://github.com/user-attachments/assets/2af1bbf4-6957-4041-8690-9cd60d33d4be)
+![create a vm](https://github.com/user-attachments/assets/ec5cc559-6415-4d6f-9c19-e4ebef557a53)
+
 <p>Log into the VM with Remote Desktop</p>
-<img src="remote desktop app.png" />
+
+![remote desktop app](https://github.com/user-attachments/assets/cacde265-bfa1-4ed7-a057-df1e2617c8df)
 
 <p>Within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip it onto your desktop </p>
 <p>Install / Enable IIS in Windows WITH CGI </p>
-<img src="enable iis.png" />
+
+![enable iis](https://github.com/user-attachments/assets/60d570aa-3fe4-4044-b72e-24f53f198e06)
 
 <p>From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)</p>
 <img src="php directory 1.png" />
@@ -43,7 +47,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="rewirte module.png" />
 
 <p>Create the directory C:\PHP</p>
-
 <p>From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder</p>
 <img src="php directory 2.png" />
 
@@ -51,6 +54,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="vc_redist.png" />
 
 <p>From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi) </p>
+<img src="mysql.png" />
+
+<p>Open IIS as an Admin</p>
+<p>Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)</p>
+<img src="register php 1.png" />
+
+<p>Reload IIS (Open IIS, Stop and Start the server)</p>
+<img src="reload iis.png" />
+
+<p>Install osTicket v1.15.8
+  
+- From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+- Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
+</p>
+
+![osticket 2](https://github.com/user-attachments/assets/309af62b-d9a1-4518-866a-5a8604093a95)
 
 
 
