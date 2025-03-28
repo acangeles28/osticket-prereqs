@@ -25,28 +25,42 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Download and install osTicket
 
 <h2>Installation Steps</h2>
-<img width="1470" alt="Screenshot 2025-03-25 at 12 31 37 PM" src="https://github.com/user-attachments/assets/6f4219b4-fda7-4a5b-a638-c9b06d5c4251" />
+<p>Create a Resource Group and Azure Virtual Machine in Windows 10</p>
+<img src="create azure RG.png" />
+<img src="create a vm.png" />
+<p>Log into the VM with Remote Desktop</p>
+<img src="remote desktop app.png" />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<p>Within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip it onto your desktop </p>
+<p>Install / Enable IIS in Windows WITH CGI </p>
+<img src="enable iis.png" />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<p>From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)</p>
+<img src="php directory 1.png" />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi) 
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+<img src="rewirte module.png" />
+
+<p>Create the directory C:\PHP</p>
+
+<p>From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder</p>
+<img src="php directory 2.png" />
+
+<p>From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe</p>
+<img src="vc_redist.png" />
+
+<p>From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi) </p>
+
+
+
+
+
+
+
+
+
+
+
+
 <br />
