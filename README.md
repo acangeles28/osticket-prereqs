@@ -79,12 +79,62 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![install osticket 1](https://github.com/user-attachments/assets/b6b2c1ce-8136-4dac-b88e-3c9f56a932ba)
 ![osticket 2](https://github.com/user-attachments/assets/309af62b-d9a1-4518-866a-5a8604093a95)
 
+<p>Reload IIS (Open IIS, Stop and Start the server)</p>
+<p>Go to sites -> Default -> osTicket On the right, click “Browse *:80”
+</p>
 
+![reload iis go to sites browse 80](https://github.com/user-attachments/assets/ff797c06-00f7-4ba3-8c97-071976a2a089)
 
+<p>Note that some extensions are not enabled
+  
+  - Go back to IIS, sites -> Default -> osTicket
+  - Double-click PHP Manager
+  - Click “Enable or disable an extension”
+    - Enable: php_imap.dll
+    - Enable: php_intl.dll
+    - Enable: php_intl.dll
+  - Refresh the osTicket site in your browser, observe the changes
+</p>
 
+![extensions not enabled](https://github.com/user-attachments/assets/3ecd36b2-250c-4406-83f5-2aad353ef145)
+![enable extentions](https://github.com/user-attachments/assets/96090855-ae2f-4067-a180-66aed492aeee)
+![refresh all set](https://github.com/user-attachments/assets/46e34181-ff58-40d6-9315-9ef665078afb)
 
+<p>Assign Permissions: ost-config.php</p>
 
+![assign persmissions to ost-sampleconfig](https://github.com/user-attachments/assets/bfe4b294-0523-4f97-84a7-d648317bcb57)
+![permissions 2](https://github.com/user-attachments/assets/ccc2cf9a-3110-4eaf-822e-fffb735d567e)
 
+<p>From the “osTicket-Installation-Files” folder, install HeidiSQL.
+
+  - Open Heidi SQL
+  - Create a new session, root/root
+  - Connect to the session
+  - Create a database called “osTicket”
+
+</p>
+
+![heidi sql install](https://github.com/user-attachments/assets/df912d9d-00f7-43e0-8adf-ae061cae5074)
+![create new heidi sql session](https://github.com/user-attachments/assets/f88e05cc-3295-445d-8503-3efd495ef6b6)
+![create a database](https://github.com/user-attachments/assets/01374dd6-ffea-4ae6-85de-6785bc5336c4)
+<img width="1470" alt="heidi sql database" src="https://github.com/user-attachments/assets/e6ff65b0-ecb1-434c-b990-21f65910b324" />
+
+<p>Continue Setting up osTicket in the browser
+
+  - MySQL Database: osTicket
+  - MySQL Username: root
+  - MySQL Password: root
+  - Click “Install Now!”
+
+</p>
+<img width="1470" alt="Continue setting up osticket" src="https://github.com/user-attachments/assets/910136dc-1bdf-4934-bce2-17c1ab0b98d9" />
+
+<p>Congratulations, hopefully it is installed with no errors!
+
+  - Browse to the help desk login page: http://localhost/osTicket/scp/login.php
+</p>
+
+![osticket istalled complete](https://github.com/user-attachments/assets/f9f11339-c639-48fe-acf9-efeab5a9e05d)
 
 
 
